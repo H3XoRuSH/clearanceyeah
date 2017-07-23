@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Wall</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/font.css">
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/script.js"></script>
+	<meta charset="utf-8">
+	<!-- © H3XoRuSH 2017 -->
+</head>
+<body>
+	<div class="navbar-fixed">
+		<nav class="teal">
+		    <div class="nav-wrapper"></div>
+		</nav>
+	</div>
+	<br>
+	<div class="container">
+		<div class="card">
+			<div class="container">
+				<br><br><br>
+				<h3>Trial Course</h3>
+				<hr>
+				<br>
+				<b>Administrator</b>
+				<div>Name of Teacher</div>
+				<b>Course Description</b>
+				<div class="grey lighten-3">
+					<div style="padding: 1vw"></div>
+				</div>
+				<b>Course Requirements</b>
+				<div class="grey lighten-3">
+					<div style="padding: 1vw"></div>
+				</div>
+				<div>
+					<b>Requires initial signatures of:</b><ul></ul>
+				</div>
+				<div>
+					<b>Requires initial signatures in:</b><ul></ul>
+				</div>
+				<br><br><br>
+				<a class='btn btn-flat waves-effect teal white-text'>View Students</a>
+				<br><br><br>
+			</div>
+		</div>
+		<br><br>
+		<div class="card">
+			<div class="container">
+				<br><br>
+				<h4>Post</h4>
+				<hr><br><br><br>
+				<form>
+					<div class="row">
+				        <div class="input-field">
+				         <textarea id="textarea1" class="materialize-textarea col s12" placeholder="Type your messege here."></textarea>
+				    	</div>
+				    </div>
+					<a class='btn btn-flat waves-effect teal white-text'>POST</a>
+				</form>
+				<br><br>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('select').material_select();
+		});  
+  		$('#textarea1').trigger('autoresize');          
+	</script>
+</body>
+</html>
